@@ -1,0 +1,2 @@
+Atkinson Hyperlegible (Braille Institute of America) and Sarabun (Cadson Demak) are licensed under the SIL Open Font License 1.1: https://openfontlicense.org
+The files here are the Latin subset of Atkinson Hyperlegible and the Thai subset of Sarabun, as served by Google Fonts.
