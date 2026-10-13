@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "Earworm Log",
+  "short_name": "Earworm",
+  "description": "Write down the song stuck in your head and chart it over time.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f3ec",
+  "theme_color": "#f6f3ec",
+  "categories": ["music", "lifestyle"],
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ],
+  "shortcuts": [
+    {"name": "Quick log", "short_name": "Quick log", "url": "./#/quick", "icons": [{"src": "icon-192.png", "sizes": "192x192"}]}
+  ]
+}

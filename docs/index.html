@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Earworm Log</title>
+<meta name="description" content="Write down the song stuck in your head: what you were thinking, how loud it is, what helped. Charts over time. English and Thai.">
+<meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151513" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Earworm Log">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Earworm Log">
+<meta property="og:title" content="Earworm Log">
+<meta property="og:description" content="Write down the song stuck in your head and chart it over time. English and Thai.">
+<meta property="og:url" content="https://nanobotco.github.io/earworm/">
+<meta property="og:image" content="https://nanobotco.github.io/earworm/card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The title Earworm Log beside a small bar chart and a wavy worm line">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Earworm Log">
+<meta name="twitter:description" content="Write down the song stuck in your head and chart it over time.">
+<meta name="twitter:image" content="https://nanobotco.github.io/earworm/card.jpg">
+<link rel="canonical" href="https://nanobotco.github.io/earworm/">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="icon" href="icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main" id="skip">Skip to content</a>
+<div class="wrap">
+  <header>
+    <h1 id="brand">Earworm Log<small>the song stuck in your head</small></h1>
+    <div class="lang" role="group" aria-label="Language" id="langbox">
+      <button type="button" data-lang="th" lang="th">ไทย</button><button type="button" data-lang="en" lang="en">EN</button>
+    </div>
+  </header>
+  <div id="banner" role="alert"></div>
+  <main id="main" tabindex="-1"><noscript><p class="noscript">Earworm Log needs JavaScript. บันทึกเพลงติดหูต้องใช้ JavaScript</p></noscript></main>
+</div>
+<nav aria-label="Sections" id="nav"><div class="in">
+  <button type="button" data-view="log"></button>
+  <button type="button" data-view="songs"></button>
+  <button type="button" data-view="charts"></button>
+  <button type="button" data-view="data"></button>
+</div></nav>
+<div id="tip" aria-hidden="true"></div>
+<div id="live" class="sr" role="status" aria-live="polite"></div>
+<script src="i18n.js"></script>
+<script src="logic.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

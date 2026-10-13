@@ -1,0 +1,11 @@
+{
+  "name": "earworm-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Earworm Log: write down the song stuck in your head and chart it over time.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "serve": "python3 -m http.server 8962 --directory docs"
+  }
+}
